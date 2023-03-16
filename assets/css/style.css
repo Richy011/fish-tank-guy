@@ -125,70 +125,68 @@ animation-fill-mode: forwards;
 .imgbx {
    background: url('../images/maintenance-fish-tank-guy.webp') no-repeat center center;
    height: 300px;
-   flex-basis: 100%;
+   flex: 1 0 100%;
 }
 
 .second-imgbx {
    background: url('../images/emergency-fish-tank-guy.webp') no-repeat center center;
-   height: 500px;
-   flex-basis: 100%;
+   height: 300px;
+   flex: 1 0 100%;
 }
 
 @media only screen and (min-width: 650px) {
    .imgbx .second-imgbx {
-      flex: 0 0 100%;
+      flex: 1 0 85%;
    }
 }
 
 @media only screen and (min-width: 950px) {
       .imgbx .second-imgbx{
-         flex: 0 0 50%;
-     
+         flex: 1 0 50%;
+        
    }
       }
 
 @media only screen and (min-width: 1300px) {
    .imgbx .second-imgbx{
-      flex: 0 0 50%;
-}
+      flex: 1 0 50%;
+   
    }
- 
+}
+
 .article {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-evenly;
    align-items: center;
    text-align: center;
-   height: 300px;
 }
 
 .content {
-   flex 0 0 100%
-   text-align: center;
+   flex: 1 0 100%;
 }
 
 @media only screen and (min-width: 650px) {
    .content {
-      flex: 0 0 100%;
+      flex: 1 0 85%;
 }  
    }
 
 @media only screen and (min-width: 950px) {
-      .content {
-         flex: 0 0 50%;
+   .content {
+         flex: 1 0 50%;
      
    }
       }
 
 @media only screen and (min-width: 1300px) {
    .content {
-      flex: 0 0 50%;
+      flex: 1 0 50%;
 }
    }
 
 #main-heading {
    text-align: center;
-   padding: 50px;
    font-size: 200%;
 }
 
@@ -199,7 +197,7 @@ animation-fill-mode: forwards;
    margin-bottom: 50px;
 }
 
-#article-heading {
+.article-heading {
    padding-bottom: 10px;
 }
 
@@ -210,10 +208,14 @@ animation-fill-mode: forwards;
    background-color:  rgb(0, 26, 55);
    color: white;
    border-radius: 10px;
-   margin: 30px;
+   margin: 10px;
 }
 
 p {
-   padding: 5px;
+   padding: 3px;
    letter-spacing: 3px;
+}
+
+.section-one {
+   margin: 20px 0;
 }
