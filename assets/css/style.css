@@ -19,6 +19,13 @@ h1, h2 {
    letter-spacing: 4px;
 }
 
+h3 {
+   font-family: roboto;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   margin: 0 auto;
+}
+
 #split {
    display: flex;
    flex-wrap: wrap;
@@ -94,7 +101,7 @@ nav a:hover {
    /* animation zoom effect on loading page */
 
 animation-name: hero-zoom;
-animation-duration: 3s;
+animation-duration: 1s;
 animation-fill-mode: forwards;
 }
 
@@ -109,34 +116,71 @@ animation-fill-mode: forwards;
    }
 }
 
-
 .background-image {
    background: url('../images/fish-tank-guy-home-image.jpg');
    background-size: cover;
    height: 600px;
 }
 
-.maintenance-image {
-   background: url('../images/maintenance-fish-tank-guy.webp') no-repeat;
-   width: 100%;
+.imgbx {
+   background: url('../images/maintenance-fish-tank-guy.webp') no-repeat center center;
    height: 300px;
-   margin: 20px 40px;
-   padding: 10px 20px;
-   display:flex;
-   flex: 1 0 33%;
+   flex-basis: 100%;
 }
-   
+
+@media only screen and (min-width: 650px) {
+   .imgbx {
+      flex: 0 0 100%;
+   }
+}
+
+@media only screen and (min-width: 950px) {
+      .imgbx {
+         flex: 0 0 50%;
+     
+   }
+      }
+
+@media only screen and (min-width: 1300px) {
+   .imgbx {
+      flex: 0 0 50%;
+}
+   }
+ 
 .article {
    display: flex;
-   justify-content: space-between;
-   align-items: stretch;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
+   text-align: center;
+   height: 300px;
 }
 
 .content {
+   flex 0 0 100%
    text-align: center;
    padding: 40px 60px;
-   flex: 1 0 66%;
 }
+
+@media only screen and (min-width: 650px) {
+   .content {
+      flex: 0 0 100%;
+}  
+   }
+
+@media only screen and (min-width: 950px) {
+      .content {
+         flex: 0 0 50%;
+     
+   }
+      }
+
+@media only screen and (min-width: 1300px) {
+   .content {
+      flex: 0 0 50%;
+}
+   }
+
 
 #fallen-angel {
    text-align: center;
