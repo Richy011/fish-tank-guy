@@ -81,6 +81,35 @@ nav a:hover {
    border-bottom: 3px solid rgb(0, 26, 55);
 }
 
+#hero-outer {
+   height: 200px;
+   width: 200px;
+   overflow: hidden;
+}
+
+#hero-image {
+   height: 200px;
+   width: 200px;
+
+   /* animation zoom effect on loading page */
+
+animation-name: hero-zoom;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+}
+
+/* create mock animation */
+
+@keyframes hero-zoom {
+   from {
+      transform: scale(1);
+   }
+   to {
+      transform: scale(1.3);
+   }
+}
+
+
 .background-image {
    background: url('../images/fish-tank-guy-home-image.jpg');
    background-size: cover;
