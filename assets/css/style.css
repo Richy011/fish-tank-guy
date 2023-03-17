@@ -44,7 +44,7 @@ h3 {
 
 nav{
    flex: 0 1 100%;
-   font-size: 100%;
+   font-size: 125%;
    font-weight: 600;
 }
 
@@ -64,7 +64,6 @@ nav{
       font-weight: 600;
 }
    }
-
 
 nav ul {
    list-style: none;
@@ -122,66 +121,64 @@ animation-fill-mode: forwards;
    height: 600px;
 }
 
-.imgbx {
-   background: url('../images/maintenance-fish-tank-guy.webp') no-repeat center center;
-   height: 300px;
-   flex: 1 0 100%;
-}
-
-.second-imgbx {
-   background: url('../images/emergency-fish-tank-guy.webp') no-repeat center center;
-   height: 300px;
-   flex: 1 0 100%;
-}
-
-@media only screen and (min-width: 650px) {
-   .imgbx .second-imgbx {
-      flex: 1 0 85%;
-   }
-}
-
-@media only screen and (min-width: 950px) {
-      .imgbx .second-imgbx{
-         flex: 1 0 50%;
-        
-   }
-      }
-
-@media only screen and (min-width: 1300px) {
-   .imgbx .second-imgbx{
-      flex: 1 0 50%;
-   
-   }
-}
-
 .article {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-evenly;
    align-items: center;
    text-align: center;
+   margin: 30px 15px;
+   padding: 20px 10px;
+   height: 400px;
+}
+
+.article-two {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
+   text-align: center;
+   margin: 30px 15px;
+   padding: 20px 10px;
+   flex-direction: row-reverse;
+   background-color: rgb(0, 26, 55, 0.3);
+   height: 400px;
+}
+
+.imgbx {
+   background: url('../images/maintenance-fish-tank-guy.webp') no-repeat center center;
+   height: 300px;
+   flex: 0%;
+}
+
+.second-imgbx {
+   background: url('../images/emergency-fish-tank-guy.webp') no-repeat center center;
+   height: 300px;
+   flex: 0%;
 }
 
 .content {
-   flex: 1 0 100%;
+   flex: 100%;
+   padding: 10px 5px;
 }
 
-@media only screen and (min-width: 650px) {
-   .content {
-      flex: 1 0 85%;
+
+@media only screen and (min-width: 550px) {
+   .content, .imgbx, .second-imgbx {
+      flex: 100%;
 }  
+  
    }
 
 @media only screen and (min-width: 950px) {
-   .content {
-         flex: 1 0 50%;
-     
+   .content, .imgbx, .second-imgbx {
+         flex: 50%;
    }
       }
 
 @media only screen and (min-width: 1300px) {
-   .content {
-      flex: 1 0 50%;
+   .content, .imgbx, .second-imgbx {
+      flex: 50%;
 }
    }
 
@@ -199,20 +196,21 @@ animation-fill-mode: forwards;
 
 .article-heading {
    padding-bottom: 10px;
+   margin: 2px;
 }
 
 #contact-button {
    font-size: 20px;
-   padding: 25px;
+   padding: 20px;
    border: 1px solid  rgb(0, 26, 55);
    background-color:  rgb(0, 26, 55);
    color: white;
    border-radius: 10px;
-   margin: 10px;
+   margin: 10px 10px 40px 10px;
 }
 
 p {
-   padding: 3px;
+   padding: 30px;
    letter-spacing: 3px;
 }
 
