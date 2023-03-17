@@ -26,82 +26,60 @@ h3 {
    margin: 0 auto;
 }
 
-#split {
+nav {
    display: flex;
-   flex-wrap: wrap;
+   align-items: center;
    justify-content: space-between;
-   align-items: center;
-   padding-right: 1rem;
+   padding: 40px 10% 10% 0;
+
 }
 
-#split img {
-   margin: 0;
+.logo {
+   color: rgb(0, 26, 55);
+   font-size: 150%;
 }
 
-.branding {
-   flex: 0 1 0%;
+nav ul li {
+   list-style-type: none;
+   display: inline-block;
+   padding: 10px 20px;
 }
 
-nav{
-   flex: 0 1 100%;
-   font-size: 125%;
-   font-weight: 600;
-}
-
-@media only screen and (min-width: 650px) {
-   nav {
-      flex: 0 1 60%;
-      font-size: 150%;
-      font-weight: 600;
-}
-   }
-
-
-@media only screen and (min-width: 1300px) {
-   nav {
-      flex: 0 1 50%;
-      font-size: 200%;
-      font-weight: 600;
-}
-   }
-
-nav ul {
-   list-style: none;
-   padding: 0;
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   color: inherit;
-}
-
-nav a {
+nav ul li a {
+   color: rgb(0, 26, 55);
    text-decoration: none;
 }
 
-nav a:hover {
+nav ul li a:hover {
    color: #fff;
    background:  rgb(0, 26, 55);
+}
+
+
+
+@media only screen and (min-width: 650px) {
+}
+
+@media only screen and (min-width: 1100px) {
+   
 }
 
 .active {
    border-bottom: 3px solid rgb(0, 26, 55);
 }
 
-#hero-outer {
-   height: 200px;
-   width: 200px;
-   overflow: hidden;
-}
+.logo {
+   display: flex;
+   justify-content: center;
+   flex: 100%;
 
-#hero-image {
-   height: 200px;
-   width: 200px;
+   padding: 10px 5px;
 
    /* animation zoom effect on loading page */
 
-animation-name: hero-zoom;
-animation-duration: 1s;
-animation-fill-mode: forwards;
+   animation-name: hero-zoom;
+   animation-duration: 1s;
+   animation-fill-mode: forwards;
 }
 
 /* create mock animation */
@@ -116,7 +94,7 @@ animation-fill-mode: forwards;
 }
 
 .background-image {
-   background: url('../images/fish-tank-guy-home-image.jpg');
+   background: url('../images/fish-tank-guy-home-image.webp');
    background-size: cover;
    height: 600px;
 }
@@ -129,7 +107,6 @@ animation-fill-mode: forwards;
    text-align: center;
    margin: 30px 15px;
    padding: 20px 10px;
-   height: 400px;
 }
 
 .article-two {
@@ -142,43 +119,40 @@ animation-fill-mode: forwards;
    padding: 20px 10px;
    flex-direction: row-reverse;
    background-color: rgb(0, 26, 55, 0.3);
-   height: 400px;
 }
 
 .imgbx {
    background: url('../images/maintenance-fish-tank-guy.webp') no-repeat center center;
    height: 300px;
-   flex: 0%;
+   flex: 1 0 0%;
 }
 
 .second-imgbx {
    background: url('../images/emergency-fish-tank-guy.webp') no-repeat center center;
    height: 300px;
-   flex: 0%;
+   flex: 1 0 0%;
 }
 
 .content {
-   flex: 100%;
+   flex: 1 0 100%;
    padding: 10px 5px;
 }
 
-
 @media only screen and (min-width: 550px) {
    .content, .imgbx, .second-imgbx {
-      flex: 100%;
+      flex: 1 0 100%;
 }  
-  
    }
 
 @media only screen and (min-width: 950px) {
    .content, .imgbx, .second-imgbx {
-         flex: 50%;
+         flex: 1 0 50%;
    }
       }
 
 @media only screen and (min-width: 1300px) {
    .content, .imgbx, .second-imgbx {
-      flex: 50%;
+      flex: 1 0 50%;
 }
    }
 
@@ -217,3 +191,4 @@ p {
 .section-one {
    margin: 20px 0;
 }
+
