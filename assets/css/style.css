@@ -4,13 +4,12 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    color: rgb(0, 26, 55);
 }
 
 body {
    font-family: roboto, sans-sarif;
    font-weight: 300;
-   color: rgb(0, 26, 55);
+ 
 }
 
 h1, h2 {
@@ -198,25 +197,31 @@ nav ul li a:hover {
    flex: 1 0 0%;
 }
 
+.third-imgbx {
+   background: url('../images/fish-tank-guy-reconditioning.webp') no-repeat center center;
+   height: 300px;
+   flex: 1 0 0%;
+}
+
 .content {
    flex: 1 0 100%;
    padding: 10px 5px;
 }
 
 @media only screen and (min-width: 550px) {
-   .content, .imgbx, .second-imgbx {
+   .content, .imgbx, .second-imgbx, .third-imgbx {
       flex: 1 0 100%;
 }  
    }
 
 @media only screen and (min-width: 950px) {
-   .content, .imgbx, .second-imgbx {
+   .content, .imgbx, .second-imgbx, .third-imgbx {
          flex: 1 0 50%;
    }
       }
 
 @media only screen and (min-width: 1300px) {
-   .content, .imgbx, .second-imgbx {
+   .content, .imgbx, .second-imgbx, .third-imgbx{
       flex: 1 0 50%;
 }
    }
@@ -257,3 +262,56 @@ p {
    margin: 20px 0;
 }
 
+.footer {
+   display: flex;
+   justify-content: space-evenly;
+   text-align: center;
+   width: auto;
+   color: #fff;
+   padding: 50px 5px;
+}
+
+a {
+   color: #fff;
+   text-decoration: none;
+}
+
+#social-media {
+   display: flex;
+   justify-content: center;
+}
+
+.footer li a {
+   text-decoration: none;
+}
+
+footer {
+   background-color: rgb(0, 26, 55);
+   color: #fff;
+}
+
+.align-left {
+   text-align: left;
+}
+
+.align-left > h3 {
+   padding-bottom: 10px;
+}
+
+.align-left > a {
+   padding-bottom: 4px;
+}
+
+.footer-item {
+   font-size: 30px;
+   text-decoration: none;
+   list-style: none;
+   padding: 20px;
+}
+
+@media only screen and (min-width: 476px) {
+ 
+}
+@media only screen and (min-width: 768px) {
+   
+}
