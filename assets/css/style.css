@@ -336,3 +336,63 @@ footer {
    
    }
 }
+
+/* contact form */
+
+.form-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.form {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   background-color: rgb(0, 26, 55);
+   color: #fff;
+   font-size: 17px;
+   font-weight: 700;
+   height: 100%;
+   width: auto;
+   padding: 30px;
+   border-radius: 10px;
+}
+
+.fieldset {
+   padding: 25px;
+   margin: 10px;
+}
+
+label {
+   padding: 10px 0;
+}
+
+input {
+   margin: 10px;
+   font-weight: 300;
+   padding: 3px;
+}
+
+textarea {
+   margin: 5px;
+}
+
+#contact-p {
+   padding: 0;
+   letter-spacing: normal;
+}
+
+.contact-buttons {
+   padding: 5px;
+   border-radius: 5px;
+   background-color: #fff;
+   color: rgb(0, 26, 55);
+}
+
+span{
+   text-align: center;
+
+}

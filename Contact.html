@@ -29,14 +29,15 @@
     <section class="section-one">
         <h2 id="main-heading">Get a Quote from the Fish Tank Guy</h2>
         <h2 id="main-heading">Contact Us</h2>
+        <div class="form-container">
         <!--Contact Form-->
         <form class="form" action="action_page.html" method="get" target="_blank" name="form" autocomplete="on"
             enterkeyhint="next">
-            <fieldset>
+            <fieldset class="fieldset">
                 <legend>Customer Details</legend>
                 <label for="fname">First name</label>
                 <input type="text" id="fname" name="fname" placeholder="John" required>
-
+                <br>
                 <label for="lname">Last name</label>
                 <input type="text" id="lname" name="lname" placeholder="Smith" required>
                 <br>
@@ -57,17 +58,19 @@
                 <label for="address">Street Address</label>
                 <input type="text" name="street-address" id="street-address" autocomplete="street-address"
                     enterkeyhint="next" required>
+                    <br>
                 <label for="eircode">Eircode</label>
                 <input name="eircode" id="eircode" autocomplete="postal-code" enterkeyhint="next" required pattern="/
                             ^([AC-FHKNPRTV-Y]{1}[0-9]{2}|D6W)[ ]?[0-9AC-FHKNPRTV-Y]{4}$/">
+                <br>
                 <label for="city">City</label>
                 <input required type="text" id="city" name="city" autocomplete="address-level3" enterkeyhint="next">
                 <br>
                 <small>We only cover County Dublin for now! Sorry!</small>
             </fieldset>
-            <fieldset>
+            <fieldset class="fieldset">
                 <legend>Make an Appointment!</legend>
-                <label for="appointment">Datum</label>
+                <label for="appointment">Date</label>
                 <input type="date" name="Appointment request" required>
                     <label for="appointment-morning">
                         <input type="hidden" name="Morning desired" id="appointment-morning" value="no">
@@ -79,28 +82,31 @@
                         <input type="checkbox" name="Afternoon desired" value="yes">
                         Afternoon
                     </label>
-                    Confirmation requested by
+                    <br>
+                    <p id="contact-p">Confirmation requested by</p>
                     <label for="email-confirmation">
-                        <input type="radio" name="email-confirmation" id="email-confirmation" value="email" checked>
+                        <input type="radio" name="confirmation" id="email-confirmation" value="email" checked>
                         Email
                     </label>
                     <label for="phone-confirmation">
-                        <input type="radio" name="phone-confirmation" id="phone-confirmation" value="phone">
+                        <input type="radio" name="confirmation" id="phone-confirmation" value="phone">
                         Phone call
                     </label>
                     <br>
                     <label for="tank-details">Aquarium Details</label>
+                    <br>
                     <textarea name="tank-details" id="tank-details" cols="30" rows="10" placeholder="Tell us about your tank..."></textarea>
                     <br>
                     <label for="mailchimp">Want to know about special offers? tick here</label>
                     <input type="checkbox" name="mailchimp" id="mailchimp" value="Yes">
-                    <span>
-                        <input type="reset" value="Form Reset">
-                        <input type="submit" value="Submit Request">
-                    </span>
+                    <br>
             </fieldset>
+            <span>
+                <input class="contact-buttons" type="reset" value="Form Reset">
+                <input class="contact-buttons" type="submit" value="Submit Request">
+            </span>
         </form>
-
+    </div>
 
     </section>
     <section class="section-one">
