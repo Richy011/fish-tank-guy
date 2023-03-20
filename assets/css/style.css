@@ -9,7 +9,6 @@
 body {
    font-family: roboto, sans-sarif;
    font-weight: 300;
- 
 }
 
 h1, h2 {
@@ -37,7 +36,6 @@ nav ul {
    font-size: 16px;
    justify-content: center;
    align-items: center;
-
 }
 
 .logo a {
@@ -46,7 +44,6 @@ nav ul {
    font-weight: bold;
    text-align: center;
    font-family: Bungee;
-
 }
 
 nav ul li a {
@@ -54,7 +51,6 @@ nav ul li a {
    text-decoration: none;
    display: block;
    font-family: Bungee;
-   
 }
 
 nav ul li a:hover {
@@ -172,18 +168,14 @@ nav ul li a:hover {
    text-align: center;
    letter-spacing: normal;
    font-size: 14px;
-
    width: 300px;
    height: 300px;
    padding-top: 40px;
    padding-left: 10px;
    background-color: rgb(0, 255, 255, 0.8);
    border-radius: 5px;
-
    bottom: 30px;
-   
    margin: 0 auto;
-
    position: absolute;
 }
 
@@ -201,18 +193,14 @@ nav ul li a:hover {
       text-align: center;
       letter-spacing: normal;
       font-size: 14px;
-   
       width: 300px;
       height: 300px;
       padding-top: 40px;
       padding-left: 10px;
       background-color: rgb(0, 255, 255, 0.8);
       border-radius: 5px;
-   
-   
       bottom: 30px;
       right: 75px;
-   
       position: absolute;
    }
 }
@@ -225,7 +213,6 @@ nav ul li a:hover {
    text-align: center;
    margin: 30px 15px;
    padding: 20px 10px;
- 
 }
 
 .article-two {
@@ -373,7 +360,6 @@ footer {
 
 .align-left > h3 {
    padding: 20px 0px 10px;
-
 }
 
 a > h4 {
@@ -406,7 +392,6 @@ a > h4 {
 
    .align-left > h3 {
       padding: 20px 0px 10px;
-   
    }
 }
 
@@ -417,7 +402,6 @@ a > h4 {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   
 }
 
 .form {
@@ -476,7 +460,6 @@ textarea {
 
 span{
    text-align: center;
-
 }
 
 .gallery-container {
