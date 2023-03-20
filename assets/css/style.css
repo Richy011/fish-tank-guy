@@ -225,6 +225,7 @@ nav ul li a:hover {
    text-align: center;
    margin: 30px 15px;
    padding: 20px 10px;
+ 
 }
 
 .article-two {
@@ -241,19 +242,19 @@ nav ul li a:hover {
 
 .imgbx {
    background: url('../images/maintenance-fish-tank-guy.webp') no-repeat center center;
-   height: 300px;
+   height: 400px;
    flex: 1 0 0%;
 }
 
 .second-imgbx {
    background: url('../images/emergency-fish-tank-guy.webp') no-repeat center center;
-   height: 300px;
+   height: 400px;
    flex: 1 0 0%;
 }
 
 .third-imgbx {
    background: url('../images/fish-tank-guy-reconditioning.webp') no-repeat center center;
-   height: 300px;
+   height: 500px;
    flex: 1 0 0%;
 }
 
@@ -367,7 +368,7 @@ footer {
    align-items: flex-start;
    width: 100%;
    color: #fff;
-   padding: 50px 100px;
+   padding: 50px 10px;
 }
 
 .align-left > h3 {
@@ -375,11 +376,24 @@ footer {
 
 }
 
-.align-left > h4{
-   padding: 4px;
+a > h4 {
+   padding: 5px;
 }
 
-@media only screen and (min-width: 875px) {
+@media only screen and (min-width: 420px) {
+   .footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      width: 100%;
+      color: #fff;
+      padding: 50px 100px;
+   }
+
+}
+
+@media only screen and (min-width: 900px) {
    .footer {
       display: flex;
       flex-direction: row;
@@ -474,8 +488,8 @@ span{
 }
 
 .gallery-item {
-   width: 250px;
-   height: 150px;
+   width: 400px;
+   height: 250px;
    object-fit: cover;
    object-position: center;
    padding: 5px;
