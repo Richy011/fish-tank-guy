@@ -158,9 +158,11 @@ nav ul li a:hover {
 }
 
 .background-image {
-   background: url('../images/fish-tank-guy-home-image.webp');
+   background-image: url('../images/fish-tank-guy-home-image.webp');
    background-size: cover;
+   background-attachment: fixed;
    height: 600px;
+   
 }
 
 .article {
