@@ -153,7 +153,7 @@ nav ul li a:hover {
 .background-image {
    background-image: url('../images/fish-tank-guy-home-image.webp');
    background-size: cover;
-   background-color: rgb(0, 255, 255, 0.8);
+   background-attachment: fixed;
    height: 600px;
 }
 
@@ -165,10 +165,10 @@ nav ul li a:hover {
 
 #outer {
    display: flex;
-   justify-content: center;
+   justify-content:
    align-items: center;
    background-color: rgb(0, 255, 255, 0.8);
-   min-height: 10vh;
+   min-height: 15vh;
    width: auto;
    }
    
@@ -178,6 +178,13 @@ nav ul li a:hover {
 }
 
 #cover-text {
+   width: 90%;
+   max-width: 1000px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
    text-align: center;
 }
 
@@ -189,12 +196,9 @@ nav ul li a:hover {
    justify-content: center;
    align-items: center;
    background-color: rgb(0, 255, 255, 0.8);
-   min-height: 10vh;
+   min-height: 15vh;
    width: auto;
-   padding-top: 100px;
    }
-   
-   
 }
 
 .article {
@@ -278,20 +282,21 @@ nav ul li a:hover {
 }
 
 .contact-button {
-   font-size: 14px;
-   padding: 5px;
+   font-size: 16px;
+   padding: 8px;
    border: 1px solid  rgb(0, 26, 55);
    background-color:  rgb(0, 26, 55);
    color: rgb(255, 255, 255);
-   border-radius: 10px;
-   margin-top: 40px;
+   border-radius: 5px;
+   margin-top: 10px;
 }
 
 .contact-button:hover {
    background-color: rgb(255, 255, 0);
    border: 1px solid rgb(255, 255, 0);
    color: rgb(0, 26, 55);
-   font-size: 14px;
+   font-size: 18px;
+   font-weight: ;
    
 }
 
