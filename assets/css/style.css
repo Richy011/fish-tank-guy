@@ -160,12 +160,12 @@ nav ul li a:hover {
 /* cover-text */
 
 #cover-text, #cover-text h2 {
-   color: rgb(0, 26, 55);S
+   color: rgb(0, 26, 55);
 }
 
 #outer {
    display: flex;
-   justify-content:
+   justify-content: center;
    align-items: center;
    background-color: rgb(0, 255, 255, 0.8);
    min-height: 15vh;
@@ -173,7 +173,7 @@ nav ul li a:hover {
    }
    
 #cover-text h3 {
-   font-weight: 1200;
+   font-weight: 1000;
    margin: 5px;
 }
 
@@ -264,7 +264,7 @@ nav ul li a:hover {
 }
    }
 
-#main-heading {
+.main-heading {
    text-align: center;
    font-size: 200%;
 }
@@ -296,7 +296,7 @@ nav ul li a:hover {
    border: 1px solid rgb(255, 255, 0);
    color: rgb(0, 26, 55);
    font-size: 18px;
-   font-weight: ;
+   font-weight: 800;
    
 }
 
@@ -305,7 +305,7 @@ p {
    letter-spacing: 3px;
 }
 
-.section-one {
+.part-one {
    margin: 20px 0;
 }
 
@@ -538,7 +538,6 @@ span{
 .gallery-container {
    display: flex;
    flex-wrap: wrap;
-   max-width: autopx;
    width: auto;
    justify-content: center;
 }
