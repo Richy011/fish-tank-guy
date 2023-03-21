@@ -437,6 +437,15 @@ textarea {
    letter-spacing: normal;
 }
 
+span{
+   text-align: center;
+}
+
+.contact-buttons:hover {
+   background-color: rgb(0, 26, 55);
+   color: rgb(255, 255, 0);
+}
+
 @media only screen and (min-width: 330px){
 
 .form {
@@ -490,7 +499,7 @@ textarea {
 
 .contact-buttons:hover {
    background-color: rgb(0, 26, 55);
-   color: #fff;
+   color: rgb(255, 255, 0);
 }
 
 span{
