@@ -450,6 +450,11 @@ label {
    padding: 10px 5px;
 }
 
+.fieldset {
+   padding: 15px;
+   margin: 5px;
+}
+
 @media only screen and (min-width: 330px){
 
 .form {
@@ -485,8 +490,8 @@ input, select{
 textarea {
    margin: 10px;
    padding-left: 12px;
-   height: 500px;
-   width: 400px;
+   height: 350px;
+   width: 200px;
 
 }
 
