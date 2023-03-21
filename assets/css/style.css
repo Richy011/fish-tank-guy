@@ -296,7 +296,8 @@ nav ul li a:hover {
 }
 
 .contact-button:hover {
-   background-color: rgb(255, 255, 255);
+   background-color: rgb(255, 255, 0);
+   border: 1px solid rgb(255, 255, 0);
    color: rgb(0, 26, 55);
    font-size: 20px;
    font-weight: 700;
@@ -416,6 +417,7 @@ a > h4 {
    width: auto;
    padding: 30px;
    border-radius: 10px;
+
 }
 
 input, select{
@@ -438,7 +440,7 @@ textarea {
 }
 
 span{
-   text-align: center;
+   margin: 0 auto;
 }
 
 .contact-buttons:hover {
@@ -455,7 +457,7 @@ label {
    margin: 5px;
 }
 
-@media only screen and (min-width: 330px){
+@media only screen and (min-width: 390px){
 
 .form {
    display: flex;
@@ -490,8 +492,8 @@ input, select{
 textarea {
    margin: 10px;
    padding-left: 12px;
-   height: 350px;
-   width: 200px;
+   height: 300px;
+   width: 300px;
 
 }
 
