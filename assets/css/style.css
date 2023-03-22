@@ -151,8 +151,12 @@ nav ul li a:hover {
 }
 
 .background-image {
-   background-image: url('https://richy011.github.io/fish-tank-guy/assets/images/fish-tank-guy-home-image.webp');
+   display: flex;
+   background: url('https://richy011.github.io/fish-tank-guy/assets/images/fish-tank-guy-home-image.webp');
+   background-position: center;
+   background-repeat: no-repeat;
    background-size: cover;
+   background-color: rgb('0, 255, 255, 0.7');
    background-attachment: fixed;
    height: 600px;
 }
@@ -163,14 +167,7 @@ nav ul li a:hover {
    color: rgb(0, 26, 55);
 }
 
-#outer {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background-color: rgb(0, 255, 255, 0.8);
-   min-height: 15vh;
-   width: auto;
-   }
+
    
 #cover-text h3 {
    font-weight: 1000;
@@ -190,15 +187,7 @@ nav ul li a:hover {
 
 
 @media only screen and (min-width: 475px) {
-   #outer {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   background-color: rgb(0, 255, 255, 0.8);
-   min-height: 15vh;
-   width: auto;
-   }
+  
 }
 
 .article {
@@ -282,6 +271,7 @@ nav ul li a:hover {
 }
 
 .contact-button {
+   display: block;
    font-size: 16px;
    padding: 8px;
    border: 1px solid  rgb(0, 26, 55);
@@ -289,6 +279,8 @@ nav ul li a:hover {
    color: rgb(255, 255, 255);
    border-radius: 5px;
    margin-top: 10px;
+   width: 100px;
+   text-align: center;
 }
 
 .contact-button:hover {
