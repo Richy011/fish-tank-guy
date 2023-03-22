@@ -212,7 +212,7 @@ nav ul li a:hover {
       text-align: center;
       background: rgb(0, 255, 255, 0.7);
       height: fit-content;
-      margin: 200px 50px;
+      margin: 200px 100px;
       border-radius: 10px;
       flex: 50%;
    }
@@ -228,7 +228,7 @@ nav ul li a:hover {
       text-align: center;
       background: rgb(0, 255, 255, 0.7);
       height: fit-content;
-      margin: 200px 50px;
+      margin: 200px 150px;
       border-radius: 10px;
       flex: 50%;
    }
