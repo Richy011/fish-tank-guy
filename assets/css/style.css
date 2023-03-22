@@ -153,10 +153,10 @@ nav ul li a:hover {
 .background-image {
    display: inline-flex;
    background: url('https://richy011.github.io/fish-tank-guy/assets/images/fish-tank-guy-home-image.webp');
+   background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
-   position: relative;
    height: 600px;
 
 }
@@ -167,39 +167,37 @@ nav ul li a:hover {
    color: rgb(0, 26, 55);
 }
 
+
 #cover-text h3 {
    font-weight: 1000;
    margin: 5px;
 }
 
 #cover-text {
-   display: inline-block;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
    text-align: center;
    background: rgb(0, 255, 255, 0.7);
    height: fit-content;
    margin-top: 150px;
    border-radius: 10px;
-   position: absolute;
-   left: 50%;
-   right: 50%;
-   transform: translate(-50%, -50%);
 }
 
 
 @media only screen and (min-width: 475px) {
    #cover-text {
-      display: inline-block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
       text-align: center;
       background: rgb(0, 255, 255, 0.7);
       height: fit-content;
       margin-top: 150px;
       border-radius: 10px;
-      position: absolute;
-      left: 50%;
-      right: 50%;
-      transform: translate(-50%, -50%);
    }
-   
   
 }
 
