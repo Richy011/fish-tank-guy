@@ -188,15 +188,18 @@ nav ul li a:hover {
 
 @media only screen and (min-width: 475px) {
    #cover-text {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      display: inline-block;
       text-align: center;
       background: rgb(0, 255, 255, 0.7);
       height: fit-content;
-      margin: 0 auto;
+      margin-top: 150px;
       border-radius: 10px;
+      position: absolute;
+      left: 50%;
+      right: 50%;
+      transform: translate(-50%, -50%);
    }
+   
   
 }
 
