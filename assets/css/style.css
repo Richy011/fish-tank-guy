@@ -544,7 +544,7 @@ span{
 
 .gallery-item {
    width: 400px;
-   height: 250px;
+   height: 400px;
    object-fit: cover;
    object-position: center;
    padding: 5px;
