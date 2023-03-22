@@ -151,7 +151,7 @@ nav ul li a:hover {
 }
 
 .background-image {
-   display: inline-flex;
+   display: flex;
    background: url('https://richy011.github.io/fish-tank-guy/assets/images/fish-tank-guy-home-image.webp');
    background-position: center;
    background-repeat: no-repeat;
