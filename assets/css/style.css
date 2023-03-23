@@ -167,6 +167,9 @@ nav ul li a:hover {
    color: rgb(0, 26, 55);
 }
 
+#cover-text h2 {
+   padding: 10px;
+}
 
 #cover-text h3 {
    font-weight: 1000;
@@ -228,7 +231,23 @@ nav ul li a:hover {
       text-align: center;
       background: rgb(0, 255, 255, 0.7);
       height: fit-content;
-      margin: 200px 150px;
+      margin: 200px 2000px;
+      border-radius: 10px;
+      flex: 50%;
+   }
+  
+}
+
+@media only screen and (min-width: 980px) {
+   #cover-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: rgb(0, 255, 255, 0.7);
+      height: fit-content;
+      margin: 200px 250px;
       border-radius: 10px;
       flex: 50%;
    }
@@ -273,11 +292,12 @@ nav ul li a:hover {
 
 .third-imgbx {
    background: url('https://richy011.github.io/fish-tank-guy/assets/images/fish-tank-guy-reconditioning.webp') no-repeat center center;
-   height: 500px;
+   height: 400px;
    flex: 1 0 0%;
 }
 
 .content {
+   display: flex;
    flex: 1 0 100%;
    padding: 10px 5px;
 }
@@ -318,7 +338,7 @@ nav ul li a:hover {
 }
 
 .contact-button {
-   display: block;
+   display: flex;
    font-size: 16px;
    padding: 8px;
    border: 1px solid  rgb(0, 26, 55);
@@ -328,6 +348,7 @@ nav ul li a:hover {
    margin-top: 10px;
    width: 100px;
    text-align: center;
+   flex: 100%;
 }
 
 .contact-button:hover {
