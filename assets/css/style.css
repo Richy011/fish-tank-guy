@@ -210,7 +210,6 @@ nav ul li a:hover {
 
 }
 
-
 @media only screen and (min-width: 538px) {
    #cover-text {
       display: flex;
@@ -258,8 +257,6 @@ nav ul li a:hover {
    }
 
 }
-
-
 
 .article {
    display: flex;
@@ -399,7 +396,7 @@ nav ul li a:hover {
    margin-top: 10px;
    width: 100px;
    text-align: center;
-   
+
 
 }
 
