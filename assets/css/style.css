@@ -648,7 +648,7 @@ label {
 }
 
 .gallery-item {
-   width: 400px;
+   width: 330px;
    height: 400px;
    object-fit: cover;
    object-position: center;
