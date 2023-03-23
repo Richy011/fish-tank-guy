@@ -298,7 +298,10 @@ nav ul li a:hover {
 }
 
 .content {
+   display: flex;
    flex-direction: column;
+   justify-content: center;
+   align-items: center;
    flex: 1 0 100%;
    padding: 10px 5px;
 }
@@ -307,17 +310,35 @@ nav ul li a:hover {
    .content, .imgbx, .second-imgbx, .third-imgbx {
       flex: 1 0 100%;
 }  
+   .content {
+      display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   }
    }
 
 @media only screen and (min-width: 950px) {
    .content, .imgbx, .second-imgbx, .third-imgbx {
          flex: 1 0 50%;
    }
+   .content {
+      display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   }
       }
 
 @media only screen and (min-width: 1300px) {
    .content, .imgbx, .second-imgbx, .third-imgbx{
       flex: 1 0 50%;
+}
+.content {
+   display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
    }
 
