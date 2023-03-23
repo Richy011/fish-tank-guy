@@ -298,6 +298,7 @@ nav ul li a:hover {
 }
 
 .content {
+   flex-direction: column;
    flex: 1 0 100%;
    padding: 10px 5px;
 }
