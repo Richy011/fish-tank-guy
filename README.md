@@ -188,6 +188,7 @@ Validation
 
 HTML has been validated with W3C HTML5 Validator.
 
+
 **[Home page](https://docs.google.com/document/d/1047EOr7jhbZ3SFEFNV7r25nexKBcgxRyaziFsevuU3g/edit?usp=sharing)**
 
 **[Gallery page](https://docs.google.com/document/d/1ToOez3AdL1bS9M8Kq5oEqlvlBAMPSbMEk-v4suPurKA/edit?usp=sharing)**
@@ -210,6 +211,7 @@ General Testing
 •	External links open in a new tab.
 
 Google lighthouse testing results
+
 **[Home page](https://docs.google.com/document/d/1miGAbLumW9DP08zXuSLlUp4kRoC7Ti8XthT2ITGQ-w0/edit?usp=sharing)**
 
 **[Gallery page](https://docs.google.com/document/d/1bz4gs9M0QDYVHkfzp_DTshE7RqA5EIftbDSmlC2HW34/edit?usp=sharing)**
@@ -256,6 +258,39 @@ I then received a notification from GitHub that my project is being deployed and
 <a name="credits"></a>
 ### Credits
 
+### All images sourced from pexels.com. Links for images included below
+
+> hero: (https://www.pexels.com/photo/an-auto-mechanic-checking-the-engine-of-a-car-4315570/)
+> parralax: Photo by jae park from Pexels(https://www.pexels.com/photo/set-of-tool-wrench-162553/)
+> card1: Photo by Mike from Pexels(https://www.pexels.com/photo/white-land-rover-range-rover-suv-on-road-116675/)
+> card1-user: Photo by Daniel Xavier from Pexels(https://www.pexels.com/photo/woman-wearing-black-eyeglasses-1239291/)
+> card2: Photo by Lloyd Freeman from Pexels(https://www.pexels.com/photo/photo-of-mercedes-benz-g-class-parked-on-dirt-road-1429775/)
+> card2-user: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/man-in-brown-button-up-shirt-3785079/)
+> card3: Photo by Mike from Pexels(https://www.pexels.com/photo/blue-bmw-coupe-892522/)
+> card3-user: Photo by Nicholas Swatz from Pexels(https://www.pexels.com/photo/photo-of-man-wearing-white-shirt-2770600/)
+> about-hero: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/happy-elderly-worker-smiling-in-workshop-3846508/)
+> port-image1: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/man-in-black-jacket-standing-under-the-vehicle-3807133/)
+> port-image2: Photo by Lex Ger from Pexels(https://www.pexels.com/photo/close-up-photo-of-automotive-part-3642618/)
+ 
+> port-image3: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/bearded-man-fixing-motorcycle-in-workshop-3822843/)
+ 
+> port-image4: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/man-in-black-jacket-and-black-pants-standing-under-vehicle-3807811/)
+ 
+> port-image5: Photo by Mídia from Pexels(https://www.pexels.com/photo/red-car-engine-bay-4116220/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+ 
+> port-image6: Photo by Malte Luk from Pexels(https://www.pexels.com/photo/man-fixing-vehicle-engine-2244746/)
+ 
+> port-image7: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/man-in-black-jacket-and-black-knit-cap-inspecting-car-engine-3807277/)
+ 
+> port-image8: Photo by cottonbro from Pexels(https://www.pexels.com/photo/man-in-blue-dress-shirt-holding-brown-wooden-tool-4489737/)
+ 
+> port-image9: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/man-in-black-jacket-and-black-pants-sitting-near-silver-vehicle-3807386/)
+ 
+> port-image10: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/photo-of-man-inspecting-car-engine-3807517/)
+ 
+> port-image11: Photo by cottonbro from Pexels(https://www.pexels.com/photo/man-in-black-t-shirt-and-blue-denim-jeans-standing-near-black-car-during-nighttime-4489721/)
+ 
+> port-image12: Photo by cottonbro from Pexels(https://www.pexels.com/photo/person-in-black-shirt-and-gray-pants-standing-beside-black-car-4489765/)
 
 
 
