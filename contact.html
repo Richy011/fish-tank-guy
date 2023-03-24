@@ -54,6 +54,7 @@
 </head>
 
 <body>
+    <!--Logo & nav bar-->
     <header class="hero">
         <nav>
             <ul class="menu">
@@ -72,6 +73,7 @@
         </nav>
     </header>
     <section>
+        <!--Background image with responsive cover sheet-->
         <div class="background-image">
             <div id="cover-text">
                 <h2>Fish Tank Guy Special Offers</h2>
@@ -87,8 +89,8 @@
         <h2 class="main-heading">Contact Us</h2>
         <div class="form-container">
             <!--Contact Form-->
-            <form class="form" action="https://formdump.codeinstitute.net/" method="get" target="_blank" name="form" autocomplete="on"
-                enterkeyhint="next">
+            <form class="form" action="https://formdump.codeinstitute.net/" method="get" target="_blank" name="form"
+                autocomplete="on" enterkeyhint="next">
                 <fieldset class="fieldset">
                     <legend>Customer Details</legend>
                     <label for="fname">First name</label>
@@ -100,7 +102,7 @@
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" placeholder="email@address.com" required>
                     <br>
-                      <!--phone number and address snippets taken from geeksforgeeks.org-->
+                    <!--phone number and address snippets taken from geeksforgeeks.org-->
                     <label for="number">Mobile Number</label>
                     <br>
                     <select class="" name="tel" id="prefix" size="1" required>
@@ -110,7 +112,7 @@
                         <option value="087">087</option>
                         <option value="089">089</option>
                     </select>
-                   
+
                     <input type="tel" id="number" name="number" placeholder="1234567" pattern="[0-9]{7}" required>
                     <br>
                     <label for="address">Street Address</label>
@@ -160,7 +162,7 @@
                     <input type="checkbox" name="mailchimp" id="mailchimp" value="Yes">
                     <br>
                 </fieldset>
-                 <!--reset and submit buttons-->
+                <!--reset and submit buttons-->
                 <span>
                     <input class="contact-buttons" type="reset" value="Form Reset"
                         aria-label="made a mistake? start again">
@@ -171,8 +173,8 @@
         </div>
     </section>
     <footer>
-        <div class="footer">
-            <div class="align-left" id="information-about-our-business">
+        <section class="footer" id="information-about-our-business">
+            <div class="align-left">
                 <h3>Info</h3>
                 <a href="#">
                     <h4>About Us</h4>
@@ -184,6 +186,7 @@
                     <h4>Contact Us</h4>
                 </a>
             </div>
+            <!--terms of service-->
             <div class="align-left" id="terms-of-our-service">
                 <h3>Services</h3>
                 <a href="#">
@@ -196,6 +199,7 @@
                     <h4>Returns</h4>
                 </a>
             </div>
+            <!--Google maps iframe-->
             <div class="align-left" id="how-to-find-us">
                 <h3>Find Us</h3>
                 <iframe
@@ -205,6 +209,7 @@
                     aria-label="google map with our address at Posie Row, Malahide Rd, Bohammer, Kinsealy, Co. Dublin, D17 YN76"
                     title="google-maps-find-us"></iframe>
             </div>
+            <!--contact details-->
             <div class="align-left" id="our-contact-information">
                 <h3>Contact</h3>
                 <a href="#" aria-label="our phone number"><i class="fa-light fa-phone-rotary"></i> +353 (01) 4532178
@@ -222,8 +227,9 @@
                     <h4><i class="fa-regular fa-clock"></i> (Sunday/Bank Holidays 12am -6pm)</h4>
                 </a>
             </div>
-        </div>
-        <div>
+        </section>
+        <!--social media links-->
+        <section>
             <ul id="social-media">
                 <li class="footer-item"><a href="www.facebook.com"
                         aria-label="Go to our facebook page (opens in new tab)" target="_blank" rel="noopener"><i
@@ -236,7 +242,7 @@
                 <li class="footer-item"><a href="www.twitter.com" aria-label="Go to our twitter page (opens in new tab)"
                         target="_blank" rel="noopener"><i class="fa-brands fa-square-twitter"></i></a></li>
             </ul>
-        </div>
+        </section>
     </footer>
     <!--Awesome font script-->
     <script src="https://kit.fontawesome.com/e232c7cd79.js" crossorigin="anonymous"></script>
