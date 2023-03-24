@@ -56,11 +56,11 @@ Fish Tank Guy offers a range of features to provide a positive user experience, 
 
 ![Cover sheet that centered and totally responsive, with opacity and an active button!](assets/images/covertext.png)
 
-**Footer that is totally responsive with an ifrmaes google map integrated!**
+**Footer that is totally responsive with an iframes google map integrated!**
 
 ![Footer that is totally responsive with an ifrmaes google map integrated!](assets/images/footer.png)
 
-**Complex contact sheet that is totally responsive with multiple input types from name, address, to check box and calendar appoitments**
+**Complex contact sheet that is totally responsive with multiple input types from name, address, to check box and calendar appointments**
 
 ![Complex contact sheet that is totally responsive with multiple input types from name, address, to check box and calendar appoitments](assets/images/contact-form.png)
 
