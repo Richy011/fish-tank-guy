@@ -242,13 +242,9 @@ Browser testing was conducted for responsiveness and functionality on:
 
 | Browser | Small screen | Medium screen | Large screen | Full Functionality |
 |--|--|--|--|--|
-|Chrome| Fully Responsive | Fully Responsive | Fullyu Responsive | Yes |
-|Firefox| Fully Responsive | Fully Responsive | Fullyu Responsive | Yes |
-|Microsoft Edge| Fully Responsive | Fully Responsive | Fullyu Responsive | Yes* |
-
-- Chrome
-- Firefox
-- Microsoft Edge
+|Chrome| Fully Responsive | Fully Responsive | Fully Responsive | Yes |
+|Firefox| Fully Responsive | Fully Responsive | Fully Responsive | Yes |
+|Microsoft Edge| Fully Responsive | Fully Responsive | Fully Responsive | Yes* |
 
 * 'active' shadowing of current page on navbar was missing in Edge
 
