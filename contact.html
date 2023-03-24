@@ -72,106 +72,109 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <!--Background image with responsive cover sheet-->
-        <div class="background-image">
-            <div id="cover-text">
-                <h2>Fish Tank Guy Special Offers</h2>
-                <h3>12 'Cleans' for the price of 6!</h3>
-                <p><a href="https://richy011.github.io/fish-tank-guy/contact.html" target="_blank"
-                        class="contact-button" aria-label="go to the top of the contact page">Get in
-                        Contact</a></p>
+    <main>
+        <section>
+            <!--Background image with responsive cover sheet-->
+            <div class="background-image">
+                <div id="cover-text">
+                    <h2>Fish Tank Guy Special Offers</h2>
+                    <h3>12 'Cleans' for the price of 6!</h3>
+                    <p><a href="https://richy011.github.io/fish-tank-guy/contact.html" target="_blank"
+                            class="contact-button" aria-label="go to the top of the contact page">Get in
+                            Contact</a></p>
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="part-one">
-        <h2 class="main-heading">Get a Quote from the Fish Tank Guy</h2>
-        <h2 class="main-heading">Contact Us</h2>
-        <div class="form-container">
-            <!--Contact Form-->
-            <form class="form" action="https://formdump.codeinstitute.net/" method="get" target="_blank" name="form"
-                autocomplete="on" enterkeyhint="next">
-                <fieldset class="fieldset">
-                    <legend>Customer Details</legend>
-                    <label for="fname">First name</label>
-                    <input type="text" id="fname" name="fname" placeholder="John" required>
-                    <br>
-                    <label for="lname">Last name</label>
-                    <input type="text" id="lname" name="lname" placeholder="Smith" required>
-                    <br>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="email@address.com" required>
-                    <br>
-                    <!--phone number and address snippets taken from geeksforgeeks.org-->
-                    <label for="number">Mobile Number</label>
-                    <br>
-                    <select class="" name="tel" id="prefix" size="1" required>
-                        <option value>Choose</option>
-                        <option value="085">085</option>
-                        <option value="086">086</option>
-                        <option value="087">087</option>
-                        <option value="089">089</option>
-                    </select>
+        </section>
+        <section class="part-one">
+            <h2 class="main-heading">Get a Quote from the Fish Tank Guy</h2>
+            <h2 class="main-heading">Contact Us</h2>
+            <div class="form-container">
+                <!--Contact Form-->
+                <form class="form" action="https://formdump.codeinstitute.net/" method="get" target="_blank" name="form"
+                    autocomplete="on" enterkeyhint="next">
+                    <fieldset class="fieldset">
+                        <legend>Customer Details</legend>
+                        <label for="fname">First name</label>
+                        <input type="text" id="fname" name="fname" placeholder="John" required>
+                        <br>
+                        <label for="lname">Last name</label>
+                        <input type="text" id="lname" name="lname" placeholder="Smith" required>
+                        <br>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="email@address.com" required>
+                        <br>
+                        <!--phone number and address snippets taken from geeksforgeeks.org-->
+                        <label for="number">Mobile Number</label>
+                        <br>
+                        <select class="" name="tel" id="prefix" size="1" required>
+                            <option value>Choose</option>
+                            <option value="085">085</option>
+                            <option value="086">086</option>
+                            <option value="087">087</option>
+                            <option value="089">089</option>
+                        </select>
 
-                    <input type="tel" id="number" name="number" placeholder="1234567" pattern="[0-9]{7}" required>
-                    <br>
-                    <label for="address">Street Address</label>
-                    <input type="text" name="address" id="address" enterkeyhint="next" required>
-                    <br>
-                    <label for="eircode">Eircode</label>
-                    <input name="eircode" id="eircode" autocomplete="postal-code" enterkeyhint="next">
-                    <br>
-                    <label for="city">City</label>
-                    <input type="text" id="city" name="city" autocomplete="address-level3" enterkeyhint="next" required>
-                    <br>
-                    <small>We only cover County Dublin for now! Sorry!</small>
-                </fieldset>
-                <fieldset class="fieldset">
-                    <legend>Make an Appointment!</legend>
-                    <label for="appointment">Date</label>
-                    <input type="date" name="Appointment request" id="appointment" required>
-                    <br>
-                    <label>
-                        <input type="hidden" name="Morning desired" value="no">
-                        <input type="checkbox" name="Morning desired" value="yes">
-                        Morning
-                    </label>
-                    <br>
-                    <label>
-                        <input type="hidden" name="Afternoon desired" value="no">
-                        <input type="checkbox" name="Afternoon desired" value="yes">
-                        Afternoon
-                    </label>
-                    <br>
-                    <p id="contact-p">Confirmation requested by</p>
-                    <label for="email-confirmation">
-                        <input type="radio" name="confirmation" id="email-confirmation" value="email" checked>
-                        Email
-                    </label>
-                    <label for="phone-confirmation">
-                        <input type="radio" name="confirmation" id="phone-confirmation" value="phone">
-                        Phone call
-                    </label>
-                    <br>
-                    <label for="tank-details">Aquarium Details</label>
-                    <br>
-                    <textarea name="tank-details" id="tank-details" cols="40" rows="10"
-                        placeholder="Tell us about your tank..."></textarea>
-                    <br>
-                    <label for="mailchimp">Want to know about special offers? tick here</label>
-                    <input type="checkbox" name="mailchimp" id="mailchimp" value="Yes">
-                    <br>
-                </fieldset>
-                <!--reset and submit buttons-->
-                <span>
-                    <input class="contact-buttons" type="reset" value="Form Reset"
-                        aria-label="made a mistake? start again">
-                    <input class="contact-buttons" type="submit" value="Submit Request"
-                        aria-label="submit your information">
-                </span>
-            </form>
-        </div>
-    </section>
+                        <input type="tel" id="number" name="number" placeholder="1234567" pattern="[0-9]{7}" required>
+                        <br>
+                        <label for="address">Street Address</label>
+                        <input type="text" name="address" id="address" enterkeyhint="next" required>
+                        <br>
+                        <label for="eircode">Eircode</label>
+                        <input name="eircode" id="eircode" autocomplete="postal-code" enterkeyhint="next">
+                        <br>
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city" autocomplete="address-level3" enterkeyhint="next"
+                            required>
+                        <br>
+                        <small>We only cover County Dublin for now! Sorry!</small>
+                    </fieldset>
+                    <fieldset class="fieldset">
+                        <legend>Make an Appointment!</legend>
+                        <label for="appointment">Date</label>
+                        <input type="date" name="Appointment request" id="appointment" required>
+                        <br>
+                        <label>
+                            <input type="hidden" name="Morning desired" value="no">
+                            <input type="checkbox" name="Morning desired" value="yes">
+                            Morning
+                        </label>
+                        <br>
+                        <label>
+                            <input type="hidden" name="Afternoon desired" value="no">
+                            <input type="checkbox" name="Afternoon desired" value="yes">
+                            Afternoon
+                        </label>
+                        <br>
+                        <p id="contact-p">Confirmation requested by</p>
+                        <label for="email-confirmation">
+                            <input type="radio" name="confirmation" id="email-confirmation" value="email" checked>
+                            Email
+                        </label>
+                        <label for="phone-confirmation">
+                            <input type="radio" name="confirmation" id="phone-confirmation" value="phone">
+                            Phone call
+                        </label>
+                        <br>
+                        <label for="tank-details">Aquarium Details</label>
+                        <br>
+                        <textarea name="tank-details" id="tank-details" cols="40" rows="10"
+                            placeholder="Tell us about your tank..."></textarea>
+                        <br>
+                        <label for="mailchimp">Want to know about special offers? tick here</label>
+                        <input type="checkbox" name="mailchimp" id="mailchimp" value="Yes">
+                        <br>
+                    </fieldset>
+                    <!--reset and submit buttons-->
+                    <span>
+                        <input class="contact-buttons" type="reset" value="Form Reset"
+                            aria-label="made a mistake? start again">
+                        <input class="contact-buttons" type="submit" value="Submit Request"
+                            aria-label="submit your information">
+                    </span>
+                </form>
+            </div>
+        </section>
+    </main>
     <footer>
         <section class="footer" id="information-about-our-business">
             <div class="align-left">
