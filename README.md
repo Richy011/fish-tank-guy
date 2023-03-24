@@ -118,14 +118,15 @@ You can view my wireframe mock ups here [Wireframes](https://docs.google.com/doc
 We used Bungee as the primary font to create a fun and engaging website experience. To complement Bungee, we selected Roboto for its good contrasting and good-looking set of complimentary fonts.
  
 [Roboto Font](https://fonts.google.com/specimen/Roboto) 
+
 [Bungee Font](https://fonts.google.com/specimen/Bungee)
 
 **Colours:**
-We drew our palette from the background image, which features calming and pleasing colours that regularly trend on coolors.co. Our palette includes navy, dark blue, sky blue, yellow, and turquoise/aqua marine. https://coolors.co/palettes/trending
-Images:
-We know that images sell products, and beautiful images of tanks and fish for sale will draw customers further into the site. We used high-definition images sourced mainly from Pexels, an excellent free resource.
+We drew our palette from the background image, which features calming and pleasing colours that regularly trend on [coolors.co.uk](https://coolors.co/palettes/trending). Our palette includes navy, dark blue, sky blue, yellow, and turquoise/aqua marine. 
 
 **Images** 
+
+We know that images sell products, and beautiful images of tanks and fish for sale will draw customers further into the site. We used high-definition images sourced mainly from Pexels, an excellent free resource.
 
 ![Gallery images](assets/images/fish-tank-guy-images.png)
 
@@ -258,39 +259,23 @@ I then received a notification from GitHub that my project is being deployed and
 <a name="credits"></a>
 ### Credits
 
-### All images sourced from pexels.com. Links for images included below
+### All fish images sourced from pexels.com. Links for images included below
 
-> hero: (https://www.pexels.com/photo/an-auto-mechanic-checking-the-engine-of-a-car-4315570/)
-> parralax: Photo by jae park from Pexels(https://www.pexels.com/photo/set-of-tool-wrench-162553/)
-> card1: Photo by Mike from Pexels(https://www.pexels.com/photo/white-land-rover-range-rover-suv-on-road-116675/)
-> card1-user: Photo by Daniel Xavier from Pexels(https://www.pexels.com/photo/woman-wearing-black-eyeglasses-1239291/)
-> card2: Photo by Lloyd Freeman from Pexels(https://www.pexels.com/photo/photo-of-mercedes-benz-g-class-parked-on-dirt-road-1429775/)
-> card2-user: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/man-in-brown-button-up-shirt-3785079/)
-> card3: Photo by Mike from Pexels(https://www.pexels.com/photo/blue-bmw-coupe-892522/)
-> card3-user: Photo by Nicholas Swatz from Pexels(https://www.pexels.com/photo/photo-of-man-wearing-white-shirt-2770600/)
-> about-hero: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/happy-elderly-worker-smiling-in-workshop-3846508/)
-> port-image1: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/man-in-black-jacket-standing-under-the-vehicle-3807133/)
-> port-image2: Photo by Lex Ger from Pexels(https://www.pexels.com/photo/close-up-photo-of-automotive-part-3642618/)
- 
-> port-image3: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/bearded-man-fixing-motorcycle-in-workshop-3822843/)
- 
-> port-image4: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/man-in-black-jacket-and-black-pants-standing-under-vehicle-3807811/)
- 
-> port-image5: Photo by Mídia from Pexels(https://www.pexels.com/photo/red-car-engine-bay-4116220/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
- 
-> port-image6: Photo by Malte Luk from Pexels(https://www.pexels.com/photo/man-fixing-vehicle-engine-2244746/)
- 
-> port-image7: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/man-in-black-jacket-and-black-knit-cap-inspecting-car-engine-3807277/)
- 
-> port-image8: Photo by cottonbro from Pexels(https://www.pexels.com/photo/man-in-blue-dress-shirt-holding-brown-wooden-tool-4489737/)
- 
-> port-image9: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/man-in-black-jacket-and-black-pants-sitting-near-silver-vehicle-3807386/)
- 
-> port-image10: Photo by Andrea Piacquadio from Pexels(https://www.pexels.com/photo/photo-of-man-inspecting-car-engine-3807517/)
- 
-> port-image11: Photo by cottonbro from Pexels(https://www.pexels.com/photo/man-in-black-t-shirt-and-blue-denim-jeans-standing-near-black-car-during-nighttime-4489721/)
- 
-> port-image12: Photo by cottonbro from Pexels(https://www.pexels.com/photo/person-in-black-shirt-and-gray-pants-standing-beside-black-car-4489765/)
+> tropical-fish-1: (https://www.pexels.com/photo/close-up-of-a-red-siamese-fighting-fish-325044/)
+
+> tropical-fish-2: (https://www.pexels.com/photo/close-up-photo-of-blue-discus-fish-2156311/)
+
+> tropical-fish-3: (https://www.pexels.com/photo/water-yellow-fish-aquarium-54313/)
+
+> tropical-fish-4: (https://www.pexels.com/photo/close-up-shot-of-a-copperband-butterflyfish-5546935/)
+
+> tropical-fish-5: (https://www.pexels.com/photo/bright-clownfish-near-sea-anemone-7787724/)
+
+> tropical-fish-6: (https://www.pexels.com/photo/girl-holding-a-plastic-bag-with-fish-8434622/)
+
+### Commercial images of aquaria
+
+Images were taken from Amazon and Georgia Aquarium, these are commercial images without copyright 
 
 
 
@@ -319,6 +304,13 @@ Used to query issues relating to overlapping CSS issues. flex box and bug fixes 
 ### Code Institute
 Project created in line with course content and within project 1 scope. The teaching material is comprehensive and very useful if not entirely up to date.
 
+
+<a name="acknowledgements"></a>
+## Acknowledgements
+
+Both Stand up and mentor meetings were very helpful in guidance and motivation
+
+I acknowledge that my 'commits' were not up to the standar I would expect, to start as I was a bit awamped with the task at hand and I believe they improved towards the end of the project and I will focus on them for the next project
 
 
 
