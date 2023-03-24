@@ -206,10 +206,10 @@ General Testing
 
 -	Chrome Dev Tools were the main method of testing new code and fixing bugs
 -	Amiresponsive.co.uk showed the visual record of the site across all devices
-•	Each time a feature was added, all the functions were tested to see if there was an impact.
-•	The site was sent to mentors and tutors for feedback.
-•	All forms have validation and will not submit without the proper information.
-•	External links open in a new tab.
+-	Each time a feature was added, all the functions were tested to see if there was an impact.
+-	The site was sent to mentors and tutors for feedback.
+-	All forms have validation and will not submit without the proper information.
+-	External links open in a new tab.
 
 Google lighthouse testing results
 
@@ -233,11 +233,11 @@ Google lighthouse testing results
 ### Fixed Bugs
 
 -	Built the hover function for contact buttons including a padding value of 5px which cause the div/section to jump every time I hovered over it. Took a while to figure out
--	Incredibly it is not allowed according to the W3C validator to have a tags and button tags used together. Why have a button tag if you can’t link it to a web page? Had to rebuild and reposition a tags instead of buttons which caused a huge delay.
--	From mentor and step up meetings it was clear that certain technologies on the course were obsolete for example ‘float’ and ‘position’, ‘Flex box’ and ‘Grid’ were suggested instead. I have spent 2 weeks nearly 12 hours a day trying to master flex box with any   mention of it in the course. Why, I don’t know. Using ‘display’ with ‘block’ or ‘flex’ determined most of my outcomes with ‘block’ in parent div tags stopping the ‘flex’ functionality. ‘flex’ includes 3 properties and figuring out how they worked took most time and ‘bug’ fixes. 
+-	Incredibly it is not allowed, according to the W3C validator, to have 'a' tags and button tags used together. Why have a button tag if you can’t link it to a web page? Had to rebuild and reposition the buttons with 'a' tags instead of buttons.
+-	From mentor and step up meetings it was clear that certain technologies on the course were obsolete for example ‘float’ and ‘position’, ‘Flex box’ and ‘Grid’ were suggested instead. I have spent 2 weeks nearly 12 hours a day trying to master flex box without any mention of it in the course. I am glad to learn something new though it is not optimal. Using ‘display’ with ‘block’ or ‘flex’ determined most of my outcomes with ‘block’ in parent div tags stopping the ‘flex’ functionality. ‘flex’ includes 3 properties and figuring out how they worked took most time and lead to the requirement for most ‘bug’ fixes. 
 -	Centering the cover text over a fixed background without using position/relative/absolute was littered with bugs that I fixed and it now works
--	Targeting precise elements was very hit and miss until I got the hang of Dev Tools on Chrome. An incredibly useful tool
--	When testing with Google Lighthouse I came across an error where an ifram did not have a title and this effected accessibility. It turned out to be an extension on Chrome –Last Pass- that was adding a ‘div’ with an iframe to the bottom of the page. Just turned the extension off.
+-	Targeting precise elements was very hit and miss at first, until I got the hang of Dev Tools on Chrome. An incredibly useful tool
+-	When testing with Google Lighthouse I came across an error where an iframe did not have a title and this effected accessibility. It turned out to be an extension on Chrome –Last Pass- that was adding a ‘div’ with an iframe to the bottom of the page. Just turned the extension off.
 
 
 
@@ -275,7 +275,7 @@ I then received a notification from GitHub that my project is being deployed and
 
 ### Commercial images of aquaria
 
-Images were taken from Amazon and Georgia Aquarium, these are commercial images without copyright 
+Images were taken from Amazon's website and Georgia Aquarium, these are commercial images without copyright 
 
 
 
@@ -310,7 +310,7 @@ Project created in line with course content and within project 1 scope. The teac
 
 Both Stand up and mentor meetings were very helpful in guidance and motivation
 
-I acknowledge that my 'commits' were not up to the standar I would expect, to start as I was a bit awamped with the task at hand and I believe they improved towards the end of the project and I will focus on them for the next project
+I acknowledge that my 'commits' were not up to the standard I would expect f myself, to start at least, as I was a bit awamped with the task at hand and I believe they improved towards the end of the project and I will focus on them for the next project
 
 
 
