@@ -219,7 +219,9 @@ Google lighthouse testing results
 
 **[Contact page](https://docs.google.com/document/d/1ALUSTnFZh5CzZGaKTNS6HLr5l0Wtinsn9ulQG2gNlHU/edit?usp=sharing)**
 
+Link checks
 
+Using W3C schools link checker, I ran the deployed website through. 5 links were documented all social media links and the google maps link which requires an iframe. You can see the results [here](https://docs.google.com/document/d/18GjGqKFSaAr6gH4Oh3LzZ21Mhwyiv6cQNBFzeK1cEcU/edit?usp=sharing)
 
 <a name="bugs"></a>
 ## Bugs
