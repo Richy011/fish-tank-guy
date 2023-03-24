@@ -310,7 +310,7 @@ Project created in line with course content and within project 1 scope. The teac
 
 Both Stand up and mentor meetings were very helpful in guidance and motivation
 
-I acknowledge that my 'commits' were not up to the standard I would expect f myself, to start at least, as I was a bit awamped with the task at hand and I believe they improved towards the end of the project and I will focus on them for the next project
+I acknowledge that my 'commits' were not up to the standard I would expect f myself, to start at least, as I was a bit swamped with the task at hand and I believe they improved towards the end of the project and I will focus on them for the next project
 
 
 
