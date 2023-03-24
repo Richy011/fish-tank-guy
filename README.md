@@ -48,7 +48,21 @@ Fish Tank Guy offers a range of features to provide a positive user experience, 
 -	A gallery showcasing the tanks and fish the business has provided in the past.
 -	A visually pleasing and functionally simple interface for customers, with never more than two clicks to a ‘purchase.’
 
+**Navigation bar with active page showing and hover over highlighting. Plus animated logo!**
 
+![Navigation bar with active page showing and hover over highlighting. Plus animated logo!](assets/images/navbar-screenshot.png)
+
+**Cover sheet that is always centered and totally responsive, with opacity and an active button!**
+
+![Cover sheet that centered and totally responsive, with opacity and an active button!](assets/images/covertext.png)
+
+**Footer that is totally responsive with an ifrmaes google map integrated!**
+
+![Footer that is totally responsive with an ifrmaes google map integrated!](assets/images/footer.png)
+
+**Complex contact sheet that is totally responsive with multiple input types from name, address, to check box and calendar appoitments**
+
+![Complex contact sheet that is totally responsive with multiple input types from name, address, to check box and calendar appoitments](assets/images/contact-form.png)
 
 <a name="features"></a>
 ## Features
@@ -223,6 +237,21 @@ Link checks
 
 Using W3C schools link checker, I ran the deployed website through. 5 links were documented all social media links and the google maps link which requires an iframe. You can see the results [here](https://docs.google.com/document/d/18GjGqKFSaAr6gH4Oh3LzZ21Mhwyiv6cQNBFzeK1cEcU/edit?usp=sharing)
 
+
+Browser testing was conducted for responsiveness and functionality on:
+
+| Browser | Small screen | Medium screen | Large screen | Full Functionality |
+|--|--|--|--|--|
+|Chrome| Fully Responsive | Fully Responsive | Fullyu Responsive | Yes |
+|Firefox| Fully Responsive | Fully Responsive | Fullyu Responsive | Yes |
+|Microsoft Edge| Fully Responsive | Fully Responsive | Fullyu Responsive | Yes* |
+
+- Chrome
+- Firefox
+- Microsoft Edge
+
+* 'active' shadowing of current page on navbar was missing in Edge
+
 <a name="bugs"></a>
 ## Bugs
 
@@ -256,7 +285,10 @@ Using W3C schools link checker, I ran the deployed website through. 5 links were
 
 I then received a notification from GitHub that my project is being deployed and after about 1 minute & a couple of refreshes of the page it was ready and live.
 
+### To deploy the project locally
 
+1. I installed the Github Desktop client
+2. Simply clone the Git repository locally
 
 <a name="credits"></a>
 ### Credits
@@ -310,9 +342,9 @@ Project created in line with course content and within project 1 scope. The teac
 <a name="acknowledgements"></a>
 ## Acknowledgements
 
-Both Stand up and mentor meetings were very helpful in guidance and motivation
+Both stand up and mentor meetings were very helpful in guidance and motivation. Thanks to both Alan and Rory for guidance
 
-I acknowledge that my 'commits' were not up to the standard I would expect f myself, to start at least, as I was a bit swamped with the task at hand and I believe they improved towards the end of the project and I will focus on them for the next project
+I acknowledge that my 'commits' were not up to the standard I would expect of myself, to start at least, as I was a bit swamped with the task at hand and I believe they improved towards the end of the project and I will focus on them for the next project
 
 
 
